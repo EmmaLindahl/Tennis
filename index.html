@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Score</title>
+    <script src="tennis.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="buttonsContainer">
+            <button onclick="getPoint(playerA)">Player A</button>
+            <button onclick="getPoint(playerB)">Player B</button>
+        </div>
+        <div id="scorerContainer">
+            <h1 id="currentScorer">...</h1>
+        </div>
+        <div id="playersContainer">
+            <div class="score"><h1>Player A:</h1><h1 id="A">Love</h1></div>
+            <div class="score"><h1>Player B:</h1><h1 id="B">Love</h1></div>
+        </div>
+    </div>
+</body>
+</html>
